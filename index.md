@@ -9,7 +9,11 @@ The UCI Americal Mathematical Society (AMS) club is part of the [UCI Department 
 |----------------|-------------------------------|-----------|-------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | LaTeX Workshop | Wednesday, May 9th, 6:30-8:30 | NSII 1201 | Bring laptops! Food and drinks will be provided. | See the [LaTeX for Beginners](http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf) matrial |                                                                                            |
 
-### Members
+### Previous Workshop Materials
+
+[TeX Workshop Notes](https://uciams.github.io/tex_workshop_notes)
+
+### Officers
 
 - President — [Amir Vig](http://sites.uci.edu/amirvig/)
 - Vice President — [Kevin Johnston](https://www.math.uci.edu/people/kevin-johnston)
