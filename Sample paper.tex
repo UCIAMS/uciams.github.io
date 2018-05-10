@@ -1,0 +1,183 @@
+%April 26, 2011
+\documentclass[11pt]{amsart}
+%\usepackage[letterpaper,hmargin=1in,vmargin=1in]{geometry}
+%\usepackage{amsmath, amssymb, amsthm, verbatim, url}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[margin=1.4in]{geometry}
+%\usepackage[colorlinks=true,
+        %inkcolor=blue]{hyperref}
+%\usepackage{phaistos}
+
+
+
+
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+
+
+
+\usepackage{paralist}
+\usepackage{graphicx}
+\usepackage{esvect}
+\usepackage{float}
+\usepackage{array}
+\usepackage{esvect}
+\usepackage{float}
+\usepackage{array}
+\usepackage{tensor}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{bbm}
+
+
+
+\newcommand*{\vertbar}{\rule[1ex]{0.5pt}{2.5ex}}
+\newcommand*{\horzbar}{\rule[0.5ex]{2.5ex}{0.5pt}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\cn}{\text{cn}}
+\newcommand{\sn}{\text{sn}}
+\newcommand{\am}{\text{am}}
+\newcommand{\res}{\text{res}}
+\newcommand{\Id}{\text{Id}}
+\newcommand{\im}{\text{Im}}
+\newcommand{\Hom}{\text{Hom}}
+\newcommand{\Ext}{\text{Ext}}
+\newcommand{\Tor}{\text{Tor}}
+\newcommand{\rk}{\text{rk}}
+\newcommand{\Span}{\text{Span}}
+\newcommand{\op}{\text{Op}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\dist}{\text{dist}}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{lemm}[theo]{Lemma}
+\newtheorem{conj}[theo]{Conjecture}
+\newtheorem*{ques}{Question}
+\newtheorem*{comm}{Comment}
+\newtheorem*{resp}{Response}
+\theoremstyle{definition}
+\newtheorem{def1}[theo]{Definition}
+\theoremstyle{remark}
+\newtheorem{rema}[theo]{Remark}
+
+
+
+\newcommand{\Op}{\operatorname{Op}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\nwc}{\newcommand}
+\nwc{\Oph}{\operatorname{Op}_\hbar}
+\nwc{\la}{\langle}
+\nwc{\ra}{\rangle}
+
+\nwc{\mf}{\mathbf} %Latex (as in \bf not tilted math letters)
+\nwc{\blds}{\boldsymbol} %Latex 
+\nwc{\ml}{\mathcal} %Latex
+
+
+\renewcommand{\Im}{\operatorname{Im}}
+\renewcommand{\Re}{\operatorname{Re}}
+
+\newcommand{\rr}{r}
+\newcommand{\inv}{^{-1}}
+\newcommand{\szego}{Szeg\"o\ }
+\newcommand{\sm}{\setminus}
+\newcommand{\kahler}{K\"ahler\ }
+\newcommand{\sqrtn}{\sqrt{N}}
+\newcommand{\wt}{\widetilde}
+\newcommand{\wh}{\widehat}
+
+
+\renewcommand{\d}{\partial}
+\newcommand{\dbar}{\bar\partial}
+\newcommand{\ddbar}{\partial\dbar}
+\newcommand{\sech}{\mbox{sech}}
+
+
+\newcommand{\half}{{\frac{1}{2}}}
+\newcommand{\vol}{{\operatorname{Vol}}}
+\newcommand{\codim}{{\operatorname{codim\,}}}
+\newcommand{\SU}{{\operatorname{SU}}}
+\newcommand{\FS}{{{\operatorname{FS}}}}
+\newcommand{\corr}{{\operatorname{Corr}}}
+
+
+\renewcommand{\phi}{\varphi}
+\newcommand{\eqd}{\buildrel {\operatorname{def}}\over =}
+\newcommand{\nhat}{\raisebox{2pt}{$\wh{\ }$}}
+
+
+\newcommand{\go}{\mathfrak}
+
+
+
+\newtheorem{maintheo}{{\sc Theorem}}
+\newtheorem{mainprop}{{\sc Proposition}}
+\newtheorem{mainlem}{{\sc Lemma}}
+\newtheorem{maincor}{{\sc Corollary}}
+\newtheorem{maindefin}{{\sc Definition}}
+%\newtheorem{theo}{{\sc Theorem}}
+\newtheorem{cor}[theo]{{\sc Corollary}}
+\newtheorem{lem}[theo]{{\sc Lemma}}
+%\newtheorem{prop}[theo]{{\sc Proposition}}
+\newenvironment{example}{\medskip\noindent{\it Example:\/} }{\medskip}
+\newenvironment{rem}{\medskip\noindent{\it Remark:\/} }{\medskip}
+\newenvironment{defn}{\medskip\noindent{\it Definition:\/} }{\medskip}
+\newenvironment{claim}{\medskip\noindent{\it Claim:\/} }{\medskip}
+\addtolength{\baselineskip}{1pt}
+
+
+\title{Title}
+\date{}
+
+
+\author{Name}
+\address{Department of Mathematics, UC Irvine, Irvine, CA 92617, USA} \email{email@uci.edu}
+
+
+
+\begin{document}
+\maketitle
+
+
+
+\begin{abstract} Write your abstract here
+\end{abstract}
+
+
+
+
+
+
+
+
+\section{First section here}
+There are lots of shortcuts for names, variables, theorems/lemmas/propositions/corollaries here. Explore the preamble and feel free to make changes to your liking. Follow the directions below (commented out with \%) to set up a bibliography.
+
+
+%\bibliographystyle{alpha}
+%\bibliography{REFERENCENAMEHERE}
+%For the references, make a separate file and save it as REFERENCENAMEHERE.bib in the same folder as this paper with no text or preamble at all. Copy and paste your sources from Math Sci Net or Google scholar in this dot bib document. Make sure the file name preceding .bib matches the name above \bibliography{...}
+
+
+
+
+\end{document}
+
